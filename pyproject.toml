@@ -1,0 +1,19 @@
+[project]
+name = "networks-modeling"
+version = "0.1.0"
+description = "DLBDSME01 case study: NYC Uber demand forecasting pipeline"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "numpy>=2.4",
+    "pandas>=3.0",
+    "matplotlib>=3.10",
+    "scikit-learn>=1.8",
+    "scipy>=1.17",
+]
+
+[dependency-groups]
+dev = [
+    "python-docx>=1.2.0",
+    "ruff>=0.15.16",
+]
